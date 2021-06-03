@@ -32,6 +32,6 @@ app.post('/',function(req,res){
       
 })
 
-app.listen(8000,function(){
+app.listen(process.env.PORT || 8000,function(){
     console.log("porta aperta")
 })
